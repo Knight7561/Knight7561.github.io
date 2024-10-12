@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'knight7561', // Your GitHub org/user name. (This is the only required config)
+    username: 'Knight7561', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -25,41 +25,41 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['Knight7561/Project-Multivariate-Timeseries-Forecasting-MT-GNN', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
+        // {
+        //   title: 'Project Name',
+        //   description:
+        //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        //   imageUrl:
+        //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        //   link: 'https://example.com',
+        // },
+        // {
+        //   title: 'Project Name',
+        //   description:
+        //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        //   imageUrl:
+        //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        //   link: 'https://example.com',
+        // },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Rohith Venkata Reddy',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'rohithvr3',
+    twitter: 'octolearn',
+    mastodon: 'distributedTerminal@mastodon.social',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -69,97 +69,104 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'rohithvr3',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://knight7561.github.io',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'rohithvr3@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/uc?export=download&id=1Bg29oa3xOEQLps1_5Vt72jfOh9aNBb4j', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'Python',
+    'Tensorflow',
+    'SQL',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'NLTK',
+    'SpaCy',
+    'LangChain',
+    'Pandas'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Acunor',
+      position: 'AI Engineer',
+      from: 'May 2024',
+      to: 'September 2024',
+      companyLink: 'https://www.acunor.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Cyberinfrastructure for Network Science (CNS) Center',
+      position: 'Software Developer, Data',
+      from: 'May 2022',
+      to: 'September 2023',
+      companyLink: 'https://cns.iu.edu/home.html',
+    },
+    {
+      company: 'NEC',
+      position: 'Software Developer, ML',
+      from: 'Aug 2019',
+      to: 'Juky 2021',
+      companyLink: 'https://in.nec.com',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'AWS Certified Machine Learning - Specialty',
+      body: 'Amazon Web Services - MLS-C01',
+      year: 'January 2024',
+      link: 'https://www.credly.com/badges/f6b504e7-89ee-4689-bcd2-aead62d82932/public_url',
     },
+    {
+      name: 'Databricks Certified Data Engineer Associate',
+      body: 'Databricks',
+      year: 'December 2023',
+      link: 'https://credentials.databricks.com/ad5ce0c6-5b35-4589-9312-27a12ad8468e',
+    },
+    {
+      name: 'Google Data Analytics Specialization',
+      body: 'Google',
+      year: 'January 2022',
+      link: 'https://www.coursera.org/account/accomplishments/professional-cert/5AFRK8EF3BNZ',
+    },
+
+
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Indiana University Bloomington',
+      degree: 'Master of Science in Data Science',
+      from: '2021',
+      to: '2023',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Visvesvaraya Technological University',
+      degree: 'Undergraduate - Bachelor in Computer Science and Engineering',
+      from: '2016',
+      to: '2020',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'Recommendation and Product Analyzer System for E-Commerce',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: 'International Research Journal of Engineering and Technology (IRJET) ',
+      authors: 'Ramya Shree B, Nama Venkata Naga Sukesh, V.R Rohith, Pranav N Rao, Sajitha N',
+      link: 'https://www.irjet.net/archives/V7/i6/IRJET-V7I6584.pdf',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
+        'The recommendation system derives a relationship between the products and users to help them to select the most appropriate product and make user decision process faster. This is achieved by using collaborative filtering. This system builds a model that enhances the seller experience by providing the positive and negative reviews given by user directly using sentimental analyzer which makes use of LSTM model for sentiment analysis for better results.',
+    }
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'rohithvr3', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -235,10 +242,10 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href=""
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >GitProfile</a> (Major credits) and ❤️`,
 
   enablePWA: true,
 };
