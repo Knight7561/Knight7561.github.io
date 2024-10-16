@@ -91,7 +91,8 @@ const CONFIG = {
     'NLTK',
     'SpaCy',
     'LangChain',
-    'Pandas'
+    'Pandas',
+    'RAG'
   ],
   experiences: [
     {
