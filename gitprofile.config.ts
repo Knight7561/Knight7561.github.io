@@ -246,7 +246,12 @@ const CONFIG = {
       class="text-primary" href=""
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> (Major credits) and ❤️`,
+    >GitProfile</a> (Major credits) and ❤️.
+    <a
+      class="text-primary" href="https://sites.google.com/view/rohithvenkatareddy#h.m2wub9pekwzn"
+      target="_blank"
+      rel="noreferrer"
+    >Meet me here</a>`,
 
   enablePWA: true,
 };
